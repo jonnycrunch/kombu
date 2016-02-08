@@ -90,7 +90,7 @@ class Channel(virtual.Channel):
 
     # Options
     ssl = False
-    ttl = False
+    ttl = True
     connect_timeout = None
     capped_queue_size = 100000
     calc_queue_size = True
